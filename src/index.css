@@ -4,6 +4,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: 0.5px;
 }
+:root{
+  --bg-color:  #252B48;
+  --text-color: #fff;
+}
 h1,
 h2,
 h3 {
@@ -18,12 +22,13 @@ h3 {
 .btn-dark:focus,
 .btn-check:focus + .btn,
 .btn:focus {
+  
   border: none;
   box-shadow: none;
 }
 
 .btn-dark:hover {
-  background: #212529;
+  background: var(--bg-color);
 }
 
 .bg-primary,
