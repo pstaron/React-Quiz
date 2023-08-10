@@ -1,0 +1,112 @@
+[
+    {
+        "id": "01",
+        "question" : "What is React?",
+        "options": [
+            "a) A programming language",
+            "b) A front-end JavaScript library for building user interfaces",
+            "c) A back-end framework for server-side development",
+            "d) An operating system"
+        ],
+        "answer": "b) A front-end JavaScript library for building user interfaces"
+    },
+    {
+        "id": "02",
+        "question" : "What does JSX stand for?",
+        "options": [
+            "a) JavaScript XML",
+            "b) Just XML",
+            "c) JavaScript XSL",
+            "d) Java Syntax Extension"
+        ],
+        "answer": "a) JavaScript XML"
+    },
+    {
+        "id": "03",
+        "question" : "Which component lifecycle method is used for actions that should be performed whenever a component updates?",
+        "options": [
+            "a) componentWillMount",
+            "b) componentWillUnmount",
+            "c) componentDidUpdate",
+            "d) componentWillUpdate"
+        ],
+        "answer": "c) componentDidUpdate"
+    },
+    {
+        "id": "04",
+        "question" : "What is the purpose of state in React components?",
+        "options": [
+            "a) To store external API keys",
+            "b) To manage the layout of components",
+            "c) To store and manage internal component data",
+            "d) To handle authentication"
+        ],
+        "answer": "c) To store and manage internal component data"
+    },
+    {
+        "id": "05",
+        "question" : "What is the Virtual DOM in React?",
+        "options": [
+            "a) A representation of the actual DOM in XML format",
+            "b) A lightweight version of the browser's DOM API",
+            "c) A concept used in server-side rendering only",
+            "d) A virtual machine for running React applications"
+        ],
+        "answer": "b) A lightweight version of the browser's DOM API"
+    },
+    {
+        "id": "06",
+        "question" : "How can you pass data from a parent component to a child component in React?",
+        "options": [
+            "a) By using Redux",
+            "b) By using the state property",
+            "c) By using the props system",
+            "d) By using the emit method"
+        ],
+        "answer": "c) By using the props system"
+    },
+    {
+        "id": "07",
+        "question" : "What is the purpose of the 'useState' hook in React?",
+        "options": [
+            "a) To perform asynchronous operations",
+            "b) To handle side effects",
+            "c) To manage state in functional components",
+            "d) To manage routing and navigation"
+        ],
+        "answer": "c) To manage state in functional components"
+    },
+    {
+        "id": "08",
+        "question" : "In React, what does the term 'unidirectional data flow' mean?",
+        "options": [
+            "a) Data flows only from child to parent components",
+            "b) Data flows in both directions between components",
+            "c) Data flows only from parent to child components",
+            "d) Data flows randomly between components"
+        ],
+        "answer": "c) Data flows only from parent to child components"
+    },
+    {
+        "id": "09",
+        "question" : "What is the purpose of the key prop when rendering a list of elements in React?",
+        "options": [
+            "a) It defines the order of elements in the list",
+            "b) It is used for styling purposes",
+            "c) It helps React identify each element uniquely in the list",
+            "d) It specifies the depth of the component in the hierarchy"
+        ],
+        "answer": "c) It helps React identify each element uniquely in the list"
+    },
+    {
+        "id": "10",
+        "question" : "Which hook can be used to perform side effects in functional components, such as data fetching?",
+        "options": [
+            "useEffect",
+            "useSideEffect",
+            "useLifecycle",
+            "useData"
+        ],
+        "answer": "a) useEffect"
+    }
+]
